@@ -5,7 +5,7 @@ def groupAnagrams(words):
 
     for word in words: 
         # Sort characters to create a unique key
-=        key = "".join(sorted(word)) # Needed to make ["a","e","t"] -> ["aet"]
+        key = "".join(sorted(word)) # Needed to make ["a","e","t"] -> ["aet"]
 
         value = anagrams.get(key)
         if (value is None): 
